@@ -1,0 +1,98 @@
+/* 基于官方主题修改 */
+:root {
+    /* 主色 */
+    --b3-theme-primary: #5E81AC;
+    --b3-theme-primary-light:#81A1C1;
+    --b3-theme-primary-lighter: #88C0D0;
+    --b3-theme-primary-lightest:#8FBCBB;
+    --b3-theme-secondary: #D08770;
+    --b3-theme-background: #2E3440;
+    --b3-theme-surface: #3B4252;
+    --b3-theme-error: #BF616A;
+
+    /* 文字颜色 */
+    --b3-theme-on-primary: #fff;
+    --b3-theme-on-secondary: #fff;
+    --b3-theme-on-background: #D8DEE9;
+    --b3-theme-on-surface: #9aa0a6;
+    --b3-theme-on-error: #fff;
+
+    /* 字体 */
+    --b3-font-family: "Helvetica Neue", "Luxi Sans", "DejaVu Sans", "Hiragino Sans GB", "Microsoft Yahei", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji", "EmojiSymbols";
+    --b3-font-family-code: mononoki, Consolas, "Liberation Mono", Menlo, Courier, monospace, "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji", "EmojiSymbols";
+
+    /* 线条 */
+    --b3-border-color: #3B4252;
+
+    /* 滚动条 */
+    --b3-scroll-color:#434c5e99;
+
+    /* 列表 */
+    --b3-list-hover: #4c566a;
+
+    /* 页签 */
+    --b3-tab-background: rgb(46, 52, 64);
+    --b3-tab-background-hover: rgb(59, 66, 82);
+
+    /* 提示 */
+    --b3-tooltips-color: #5E81AC;
+
+    /* 动画效果 */
+    --b3-transition: all .15s cubic-bezier(0, 0, .2, 1) 0ms;
+
+    /* 阴影 */
+    --b3-point-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+    --b3-dialog-shadow: 0px 11px 15px -7px rgba(0, 0, 0, 0.4);
+
+    /* diff */
+    --b3-diff-add: #133a1c;
+    --b3-diff-add-surface: #28853e;
+    --b3-diff-del: #440c10;
+    --b3-diff-del-surface: #b1202d;
+
+    /* 图表颜色 */
+    --b3-graph-point: #e8eaed;
+    --b3-graph-line: #9aa0a6;
+    --b3-graph-hl-point: #D08770;
+    --b3-graph-hl-line: #BF616A;
+
+    /* 编辑器工具栏高度 */
+    --b3-vditor-toolbar-height: 29px;
+    --b3-vditor-toolbar-height-space: 6px;
+
+    /* 编辑器搜索颜色 */
+    --b3-vditor-search-background: #88c0d066;
+    --b3-vditor-search-border-color: #88c0d033;
+    --b3-vditor-search-current-background: #434c5ecc;
+
+    /* 代码片段背景 */
+    --b3-vditor-code-background: #5E81AC;
+
+    /* 即时渲染标记符颜色 */
+    --b3-vditor-mark-heading-color: #8FBCBB;
+    --b3-vditor-mark-title-color: #4C566A;
+    --b3-vditor-mark-em-color: #D8DEE9;
+    --b3-vditor-mark-strong-color: #D8DEE9;
+    --b3-vditor-mark-backslash-color: #D08770;
+    --b3-vditor-mark-s-color: #9aa0a6;
+    --b3-vditor-mark-mark-color: #9aa0a6;
+    --b3-vditor-mark-link-color: #88c0d0;
+    --b3-vditor-mark-bracket-color: #5E81AC;
+    --b3-vditor-mark-paren-color: #6a8759;
+    --b3-vditor-mark-block-color: #8FBCBB;
+    --b3-vditor-mark-tag-color: #D8DEE9;
+
+    /* 即时渲染行内元素颜色 */
+    --b3-vditor-inline-strong-color: #e8eaed;
+    --b3-vditor-inline-em-color: #e8eaed;
+    --b3-vditor-inline-s-color: #e8eaed;
+    --b3-vditor-inline-link-color: #5E81AC;
+    --b3-vditor-inline-mark-background: #32593c;
+    --b3-vditor-inline-mark-color: #e8eaed;
+    --b3-vditor-inline-tag-color: #9aa0a6;
+    --b3-vditor-inline-blockref-color: #8FBCBB;
+}
+
+.language-graphviz polygon {
+    fill: var(--b3-theme-on-surface);
+}
