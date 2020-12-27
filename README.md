@@ -1,3 +1,3 @@
 # Nord Theme for Siyuan
-## Previe
+## Preview
 ![](preview.png)
